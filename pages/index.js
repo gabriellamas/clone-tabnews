@@ -4,4 +4,6 @@ function teste() {
   console.log("alou");
 }
 
+teste();
+
 export default Home;
