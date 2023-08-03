@@ -1,9 +1,11 @@
-const Home = () => <h1>A</h1>;
+const Home = () => {
+  function teste() {
+    console.log("alou");
+  }
 
-function teste() {
-  console.log("alou");
-}
+  teste();
 
-teste();
+  return <h1>Em Construção</h1>;
+};
 
 export default Home;
